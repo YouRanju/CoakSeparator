@@ -1,0 +1,93 @@
+.main {
+    background-image: url('../img/background.png');
+}
+
+#mainbody {
+    cursor: none;
+}
+
+.indexcav {
+    top : 200px;
+    left : 550px;
+}
+
+canvas {
+    position: absolute;
+
+    top : 260px;
+    left : 200px;
+    
+    margin-right: 0px;
+    border: black dotted 2px;
+}
+
+table {
+    position : absolute;
+    top : 430px;
+    left : 1170px;
+
+    width: 200px;
+    height: 400px;
+    
+    text-align: center;
+}
+
+tr {
+    height: 100px;
+}
+
+#btn {
+    position: absolute;
+   
+    width: 300px;
+    height: 100px;
+
+    top : 590px;
+    left : 810px;
+    z-index: 999;
+}
+
+.canvsbtn {
+    position: absolute;
+   
+    width: 150px;
+    height: 100px;
+
+    top : 280px;
+    left : 1100px;
+    
+    z-index: 999;
+}
+
+#start {
+    width: 300px;
+}
+
+#how, #ho, #gotitle {
+    width: 300px;
+    top: 400px;
+}
+
+#pause {
+
+}
+
+#bgmstop {
+    left : 1300px;
+}
+
+#replay {
+    width: 300px;
+
+}
+
+#exit {
+    width:300px;
+    top: 520px;
+}
+
+#target {
+    position: absolute;
+    z-index: 999;
+    visibility: hidden;
+}

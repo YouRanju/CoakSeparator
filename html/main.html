@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/sysstyle.css">
+    <script src = "../js/main.js"></script>
+    <title>CockSeparater</title>
+</head>
+<body id = "mainbody" class = "main">
+    <audio id = "bgm" src = '../sound/Ride_of_the_Valkyries_by_Wagner.mp3'></audio>
+    <audio id = "se" src = '../sound/Gun_Shooting_Nails.mp3'></audio>
+
+    <img id = "target" src = "../img/target.png" width="60" height="60" />
+    
+    <canvas id = "canvas" width = "800" height="600"></canvas>
+
+    <button id = "pause" class='canvsbtn' onclick = "pause()">중지</button>
+    <button id = "bgmstop" class='canvsbtn' onclick = "bgmstop()">배경음악끄기</button>
+    
+    <table>
+        <tr>
+            <td><h1>남은 시간</h1></td>
+        </tr>
+        <tr>
+            <td style="border-bottom:1px dotted black"><div id = 'time'></div></td>
+        </tr>
+        <tr>
+            <td><h1>점수</h1></td>
+        </tr>
+        <tr>
+            <td><div id = 'score'></div></td>
+        </tr>
+    </table>
+</body>
+</html>
